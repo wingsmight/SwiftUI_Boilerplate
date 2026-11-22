@@ -2,16 +2,15 @@
 //  BoilerplateApp.swift
 //
 
-import SwiftfulRouting
 import SwiftUI
 
 @main
 struct BoilerplateApp: App {
+    private let container = AppContainer()
+
     var body: some Scene {
         WindowGroup {
-            RouterView { _ in
-                MainView()
-            }
+            AppRouter(container: container)
         }
     }
 }

@@ -1,7 +1,7 @@
 iOS SwiftUI Boilerplate
 ============================
 
-The Boilerplate project based on SwiftUI using MVVM.
+The Boilerplate project based on SwiftUI. Code is grouped by feature, and each feature follows MVVM.
 
 ## Setup
 1. Clone the repository.
@@ -20,17 +20,84 @@ The Boilerplate project based on SwiftUI using MVVM.
 
 ## Project Structure
 
+Application sources live in `Boilerplate/`. `./init` renames that folder, and `BoilerplateApp.swift`, to the new project name.
+
+```
+Boilerplate/
+├── App/
+│   ├── BoilerplateApp.swift
+│   ├── AppContainer.swift
+│   ├── AppRouter.swift
+│   └── AppConfiguration.swift
+│
+├── Features/
+│   ├── Authentication/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   ├── Models/
+│   │   ├── Components/
+│   │   └── Services/
+│   │
+│   ├── Profile/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   ├── Models/
+│   │   └── Components/
+│   │
+│   ├── Editor/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   ├── Models/
+│   │   ├── Components/
+│   │   └── Services/
+│   │
+│   └── Settings/
+│       ├── Views/
+│       └── ViewModels/
+│
+├── Domain/
+│   ├── Models/
+│   └── Contracts/
+│
+├── Core/
+│   ├── Networking/
+│   ├── Storage/
+│   ├── Services/
+│   └── Repositories/
+│
+├── Shared/
+│   ├── UI/
+│   │   ├── Components/
+│   │   ├── Modifiers/
+│   │   └── Styles/
+│   ├── Extensions/
+│   └── Utilities/
+│
+├── Resources/
+│   ├── Assets.xcassets
+│   ├── Localizable.xcstrings
+│   └── Fonts/
+│
+├── Tests/
+│   ├── Features/
+│   ├── Domain/
+│   └── Core/
+│
+├── Preview Content/
+│   └── Preview Assets.xcassets
+│
+└── Info.plist
+```
+
 | Name | Description |
 | --- | --- |
-| **Models**/ | Model structs for MVVM |
-| **Views**/ | Views for MVVM |
-| **ViewModels**/ | ViewModels for MVVM |
-| **Lifecycle**/ | Entry point like struct with @main |
-| **Utilities**/ | Common classes are here |
-| **Extensions**/ | +Ext extensions |
-| **Enums**/ | Enumerations |
-| **Styles**/ | Button and other views styles |
-| **ViewModifiers**/ | View modifiers |
-| **Components**/ | Components |
-| **Assets**/ | Assets.xcassets |
-| **Preview Content**/ | Preview Assets.xcassets |
+| **App**/ | Entry point, dependency container, root router, and app configuration |
+| **Features**/ | One folder per screen or feature. Views, view models, models, and feature-specific UI stay together |
+| **Domain**/ | Models and contracts shared across features |
+| **Core**/ | Networking, storage, app-wide services, and repositories |
+| **Shared**/ | Reusable UI, extensions, and utilities |
+| **Resources**/ | Asset catalog, string catalog, and fonts |
+| **Tests**/ | Folder layout for unit tests, split the same way as Features, Domain, and Core. Add an Xcode test target when you write the first test |
+| **Preview Content**/ | Assets used by SwiftUI previews |
+
+Empty folders contain a `.gitkeep` file so Git keeps the template. Delete that file when you add the first real source file to the folder.

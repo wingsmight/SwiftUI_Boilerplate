@@ -1,33 +1,6 @@
 {
-  "originHash" : "e956126d43cc39ea77a16877e460f398f9e76e8b11885ec70da37641f2be08e3",
+  "originHash" : "4f23d8cadf391da371945c3b15ffa1b94d34f2ba00e90ef7d82181ad41a9a145",
   "pins" : [
-    {
-      "identity" : "chartview",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AppPear/ChartView",
-      "state" : {
-        "revision" : "9115a992c91fa19cbb4f2241084240d38654a1fc",
-        "version" : "1.5.5"
-      }
-    },
-    {
-      "identity" : "engine",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/nathantannar4/Engine",
-      "state" : {
-        "revision" : "391d0da0282f51327b5d2c0e5de64f75e59cbae7",
-        "version" : "1.8.3"
-      }
-    },
-    {
-      "identity" : "fakery",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/vadymmarkov/Fakery",
-      "state" : {
-        "revision" : "71cb3bf36a808534659d1248780c2bf3c4c4fc91",
-        "version" : "5.1.0"
-      }
-    },
     {
       "identity" : "kingfisher",
       "kind" : "remoteSourceControl",
@@ -38,39 +11,12 @@
       }
     },
     {
-      "identity" : "popupview",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/exyte/PopupView",
-      "state" : {
-        "revision" : "337430278cd6ceff454c143fe815af364276332b",
-        "version" : "3.0.5"
-      }
-    },
-    {
       "identity" : "rncryptor",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/RNCryptor/RNCryptor.git",
       "state" : {
-        "revision" : "5e3bbf44f08bf90049537cb8902d8f4fa911a79a",
-        "version" : "5.1.0"
-      }
-    },
-    {
-      "identity" : "shiny",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/maustinstar/shiny",
-      "state" : {
-        "branch" : "master",
-        "revision" : "862360b8ab6b9ea9eb1156569a30f154b22625a5"
-      }
-    },
-    {
-      "identity" : "shiny-swift-ui",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Flowductive/shiny-swift-ui",
-      "state" : {
-        "revision" : "fc1f779fc1bfc0701d0d22cd11ef91e0c15a7f92",
-        "version" : "1.2.0"
+        "revision" : "09b65118da7b7f1d14032d9850c1556e0d20853a",
+        "version" : "5.2.0"
       }
     },
     {
@@ -80,15 +26,6 @@
       "state" : {
         "revision" : "b97939af7c638562df136414aa6c8ca53a5203fa",
         "version" : "1.5.0"
-      }
-    },
-    {
-      "identity" : "swift-syntax",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax.git",
-      "state" : {
-        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
-        "version" : "509.1.1"
       }
     },
     {
@@ -105,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SwiftfulThinking/SwiftfulRouting",
       "state" : {
-        "revision" : "02a6e295fbcbee2f30d49b90bd5e2b11a9885d39",
-        "version" : "5.3.5"
+        "revision" : "6c2ec4ba512c6ee6f567ce4cb135f207dc7e283c",
+        "version" : "6.2.2"
       }
     },
     {
@@ -114,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SwiftfulThinking/SwiftfulUI",
       "state" : {
-        "revision" : "7e6e2d1c29d05e1519f2f5a2ce6012fe4e4dfa19",
-        "version" : "1.2.0"
+        "revision" : "2cb71cdb1115d2c3a2677e693ab6b0b0b1146bc8",
+        "version" : "1.2.4"
       }
     },
     {
@@ -123,35 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SimplyDanny/SwiftLintPlugins",
       "state" : {
-        "revision" : "b8431a26655378581890d56b95a0b59aba9f62da",
-        "version" : "0.55.1"
-      }
-    },
-    {
-      "identity" : "swiftui-introspect",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/siteline/swiftui-introspect",
-      "state" : {
-        "revision" : "807f73ce09a9b9723f12385e592b4e0aaebd3336",
-        "version" : "1.3.0"
-      }
-    },
-    {
-      "identity" : "transmission",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/nathantannar4/Transmission",
-      "state" : {
-        "revision" : "9f45dfcaf89659e8f7454b91ba6eb108a781f68a",
-        "version" : "1.4.2"
-      }
-    },
-    {
-      "identity" : "turbocharger",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/nathantannar4/Turbocharger",
-      "state" : {
-        "revision" : "eb872a6c960411c0a64dc1c88a636fe663f3c0cd",
-        "version" : "1.3.2"
+        "revision" : "ef7d692fc6706e8f5628e26bcafaefa445c58a97",
+        "version" : "0.65.1"
       }
     }
   ],

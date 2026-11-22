@@ -13,13 +13,7 @@
 		CE16FC272C5E0CEB004A57F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE16FC262C5E0CEB004A57F8 /* Preview Assets.xcassets */; };
 		CEAF5E6F2C5E15420068E677 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E6E2C5E15420068E677 /* SwiftfulRouting */; };
 		CEAF5E722C5E155B0068E677 /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E712C5E155B0068E677 /* SwiftfulUI */; };
-		CEAF5E752C5E16430068E677 /* Transmission in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E742C5E16430068E677 /* Transmission */; };
 		CEAF5E782C5E16CD0068E677 /* Slab in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E772C5E16CD0068E677 /* Slab */; };
-		CEAF5E7B2C5E16E20068E677 /* Shiny in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E7A2C5E16E20068E677 /* Shiny */; };
-		CEAF5E7E2C5E17820068E677 /* Fakery in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E7D2C5E17820068E677 /* Fakery */; };
-		CEAF5E812C5E17BB0068E677 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E802C5E17BB0068E677 /* PopupView */; };
-		CEAF5E842C5E17E70068E677 /* ShinySwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E832C5E17E70068E677 /* ShinySwiftUI */; };
-		CEAF5E872C5E196E0068E677 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E862C5E196E0068E677 /* SwiftUICharts */; };
 		CEAF5E8A2C5E1A790068E677 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CEAF5E892C5E1A790068E677 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
@@ -37,15 +31,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAF5E872C5E196E0068E677 /* SwiftUICharts in Frameworks */,
 				CEAF5E722C5E155B0068E677 /* SwiftfulUI in Frameworks */,
-				CEAF5E812C5E17BB0068E677 /* PopupView in Frameworks */,
-				CEAF5E842C5E17E70068E677 /* ShinySwiftUI in Frameworks */,
 				CEAF5E8A2C5E1A790068E677 /* Kingfisher in Frameworks */,
-				CEAF5E752C5E16430068E677 /* Transmission in Frameworks */,
-				CEAF5E7E2C5E17820068E677 /* Fakery in Frameworks */,
 				CEAF5E782C5E16CD0068E677 /* Slab in Frameworks */,
-				CEAF5E7B2C5E16E20068E677 /* Shiny in Frameworks */,
 				CEAF5E6F2C5E15420068E677 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,13 +185,7 @@
 			packageProductDependencies = (
 				CEAF5E6E2C5E15420068E677 /* SwiftfulRouting */,
 				CEAF5E712C5E155B0068E677 /* SwiftfulUI */,
-				CEAF5E742C5E16430068E677 /* Transmission */,
 				CEAF5E772C5E16CD0068E677 /* Slab */,
-				CEAF5E7A2C5E16E20068E677 /* Shiny */,
-				CEAF5E7D2C5E17820068E677 /* Fakery */,
-				CEAF5E802C5E17BB0068E677 /* PopupView */,
-				CEAF5E832C5E17E70068E677 /* ShinySwiftUI */,
-				CEAF5E862C5E196E0068E677 /* SwiftUICharts */,
 				CEAF5E892C5E1A790068E677 /* Kingfisher */,
 			);
 			productName = Boilerplate;
@@ -238,13 +220,7 @@
 				CE16FC392C5E1490004A57F8 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
 				CEAF5E6D2C5E15420068E677 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
 				CEAF5E702C5E155B0068E677 /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
-				CEAF5E732C5E16420068E677 /* XCRemoteSwiftPackageReference "Transmission" */,
 				CEAF5E762C5E16CD0068E677 /* XCRemoteSwiftPackageReference "slab" */,
-				CEAF5E792C5E16E20068E677 /* XCRemoteSwiftPackageReference "shiny" */,
-				CEAF5E7C2C5E17820068E677 /* XCRemoteSwiftPackageReference "Fakery" */,
-				CEAF5E7F2C5E17BB0068E677 /* XCRemoteSwiftPackageReference "PopupView" */,
-				CEAF5E822C5E17E70068E677 /* XCRemoteSwiftPackageReference "shiny-swift-ui" */,
-				CEAF5E852C5E196E0068E677 /* XCRemoteSwiftPackageReference "ChartView" */,
 				CEAF5E882C5E1A790068E677 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = CE16FC1D2C5E0CE9004A57F8 /* Products */;
@@ -510,7 +486,7 @@
 			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.3.5;
+				minimumVersion = 6.2.2;
 			};
 		};
 		CEAF5E702C5E155B0068E677 /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
@@ -521,60 +497,12 @@
 				minimumVersion = 1.2.0;
 			};
 		};
-		CEAF5E732C5E16420068E677 /* XCRemoteSwiftPackageReference "Transmission" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nathantannar4/Transmission";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.2;
-			};
-		};
 		CEAF5E762C5E16CD0068E677 /* XCRemoteSwiftPackageReference "slab" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/useradgents/slab";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.5.0;
-			};
-		};
-		CEAF5E792C5E16E20068E677 /* XCRemoteSwiftPackageReference "shiny" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/maustinstar/shiny";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		CEAF5E7C2C5E17820068E677 /* XCRemoteSwiftPackageReference "Fakery" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/vadymmarkov/Fakery";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.0;
-			};
-		};
-		CEAF5E7F2C5E17BB0068E677 /* XCRemoteSwiftPackageReference "PopupView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/exyte/PopupView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.5;
-			};
-		};
-		CEAF5E822C5E17E70068E677 /* XCRemoteSwiftPackageReference "shiny-swift-ui" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Flowductive/shiny-swift-ui";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
-			};
-		};
-		CEAF5E852C5E196E0068E677 /* XCRemoteSwiftPackageReference "ChartView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppPear/ChartView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.5.5;
 			};
 		};
 		CEAF5E882C5E1A790068E677 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
@@ -598,40 +526,10 @@
 			package = CEAF5E702C5E155B0068E677 /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
 			productName = SwiftfulUI;
 		};
-		CEAF5E742C5E16430068E677 /* Transmission */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEAF5E732C5E16420068E677 /* XCRemoteSwiftPackageReference "Transmission" */;
-			productName = Transmission;
-		};
 		CEAF5E772C5E16CD0068E677 /* Slab */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CEAF5E762C5E16CD0068E677 /* XCRemoteSwiftPackageReference "slab" */;
 			productName = Slab;
-		};
-		CEAF5E7A2C5E16E20068E677 /* Shiny */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEAF5E792C5E16E20068E677 /* XCRemoteSwiftPackageReference "shiny" */;
-			productName = Shiny;
-		};
-		CEAF5E7D2C5E17820068E677 /* Fakery */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEAF5E7C2C5E17820068E677 /* XCRemoteSwiftPackageReference "Fakery" */;
-			productName = Fakery;
-		};
-		CEAF5E802C5E17BB0068E677 /* PopupView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEAF5E7F2C5E17BB0068E677 /* XCRemoteSwiftPackageReference "PopupView" */;
-			productName = PopupView;
-		};
-		CEAF5E832C5E17E70068E677 /* ShinySwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEAF5E822C5E17E70068E677 /* XCRemoteSwiftPackageReference "shiny-swift-ui" */;
-			productName = ShinySwiftUI;
-		};
-		CEAF5E862C5E196E0068E677 /* SwiftUICharts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEAF5E852C5E196E0068E677 /* XCRemoteSwiftPackageReference "ChartView" */;
-			productName = SwiftUICharts;
 		};
 		CEAF5E892C5E1A790068E677 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
